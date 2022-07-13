@@ -7,7 +7,7 @@
 
 TickGrinder is a high performance algorithmic trading platform written primarily in Rust.  It is designed with the goal of efficiently processing event-based market data as quickly as possible in order to automatically place and manage trades.
 
-*Currently this platform is only compiles and runs on Linux-based systems.  Windows functionality is planned for the future but no set schedule has been defined for its implementation.*
+*Currently, this platform only compiles and runs on Linux-based systems.  Windows functionality is planned for the future but no set schedule has been defined for its implementation.*
 
 # Overview
 The basis of the platform is written in Rust.  It consists of several distinct modules that operate independently but communicate with each other via a custom messaging protocol implemented on top of Redis Pub/Sub.  It is designed to be extensible and robust, capable of being used to trade any market consisting of event-based streaming Tick data.
